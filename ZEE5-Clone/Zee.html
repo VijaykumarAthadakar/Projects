@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Zee.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<body style="background-color: #0f0617;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img style="height: 45px; width: 45px;margin-top: 10px;margin-left: 25px;" src="../Images/ZEE5_logo1.svg" alt="">
+        <a   style="margin-left: 25px;" class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Tv Shows <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Movies</a>
+            <!-- </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link disabled">Web Series</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img style="margin-left: 170px;" src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5246218/cover/1920x7707fe3d1ec02c444049b2b62926681b281.jpg" class="d-block w-95" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img style="margin-left: 170px;" src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-101-10z5305431/cover/1920x77088685fee485041ddafc8c33c4fa88347.jpg" class="d-block w-95" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img style="margin-left: 170px;" src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/cover/1920x770b6fed9049e7b49efa2a392d50a1bf452c1f78b31cb254686aa259f422e220d0f.jpg" class="d-block w-95" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img style="margin-left: 170px;" src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5285324/cover/1920X77048f47c0c2abc47999a95c8bd725338c1.jpg" class="d-block w-95" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img style="margin-left: 170px;" src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-101-10z5305813/cover/1920x7702a98367a386741be88bd203868a619b7986f5b63fb77495f89a02246f7b5a194.jpg" class="d-block w-95" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img style="margin-left: 170px;" src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5262285/cover/1920x7701aa5b1e65a8f49129202c21ede506976.jpg" class="d-block w-95" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+
+            <!-- h1 Trending near you -->
+      <h2 class="trending">Trending Near You</h2>
+        
+<!-- movies thmnails -->
+         <div class="img">
+            <img class="imgss" src=https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/portrait/1920x770b6fed9049e7b49efa2a392d50a1bf452c1f78b31cb254686aa259f422e220d0f.jpg alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5318993/portrait/1920x770bdf8f897702c42339305ee8a1696e92d.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5273898/portrait/1920x770fc66179517a74cdaadd64730922d0611.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-8-626/portrait/cover1920x770acae6c8291054cb9a4fee9cc6c74e93f.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5285324/portrait/1920X77048f47c0c2abc47999a95c8bd725338c1.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5319065/portrait/1920x77081d244ad226c4acf973ff8975af76d68.jpg" alt="">
+         </div>
+
+         <h2 class="trending">Top 10 Movies in India</h2>
+
+         <div class="img">
+
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299828/portrait/1920x77023958a1676e340ddb2cd592012f3c263.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5294923/portrait/1920x770d75d0df4fe964fe79de2be8307512fec.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5277822/portrait/1920x770c6300138e66e4caeb7bf3a4f9f02067b.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5301299/portrait/1920x770f5c57d4759124df5bbf870a68dfc6fb5.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5318993/portrait/1920x770bdf8f897702c42339305ee8a1696e92d.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5250012/portrait/1920x7702e2ba8da340346f9b2256075cd4a39f2.jpg" alt="">
+         </div>
+
+         <h2 class="trending">Latest Kannada Episodes Free</h2>
+         <div class="img">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5320317/list/00000155eb0cb85c649c434a8c452f5f4761d621.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5320206/list/00000251129c04dc21e640b08b1b08b25fa24b28.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5320391/list/000002024e5116b43e624236854e6fd9218a76c3.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5321832/list/000002163bf1c583c9e345069e1816ea37c24fc0.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5320341/list/00000229f55d176a86b74401a9aa46ce3bc76a46.jpg" alt="">
+          
+         </div>
+
+         <h2 class="trending">Top 10 Web Series in India</h2>
+        
+<!-- movies thmnails -->
+         <div class="img">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/portrait/1920x770b6fed9049e7b49efa2a392d50a1bf452c1f78b31cb254686aa259f422e220d0f.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5310699/portrait/1920x770fd9fd8413bbf452ea0af3d6ba5498f8a.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5281686/portrait/1920x7704af47d1e734948e381572ad1b52a4ecb4df6c4abb1824eac8df67df6ee440910.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5289752/portrait/ayaliplatformcreatives11920x770d3c49874d4c744ada10981c2d331574a.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5309801/portrait/1920x7705d0b446453b246dda6e4649d8588ad5c.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5199975/portrait/1920x770f545e44b4f784495a8845760cd4928dd16a9937a4ca94efd8688698bcbaa64be.jpg" alt="">
+         </div>
+
+         <h2 class="trending">ZEE5 Exclusives | First 15 Mins FREE</h2>
+
+         <div class="img">
+
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5254708/portrait/1920x7704f575534d7d04b508d955098d7626c6e.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5227557/portrait/1920x77074e8249938204d6484aaec4c74f72a37.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5259649/portrait/1920x770453a9b24fc3b4464a6c8f3d25b1cf97d.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5177236/portrait/1920x770e7e9d7fd36a642ed86a4867811643d65.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5149852/portrait/1920x77029668ced73ef4f8e97b0ab0bd56668f6.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-399328/portrait/1920x770e5a66e3b7915472ba207e0d1a7c02239.jpg" alt="">
+            
+         </div>
+         <h2 class="trending">Explore In Your Language</h2>
+         <div class="img">
+
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258170/list/kannadaplatformlanguage1170x65823112022518dadc786404465ae31319ac3972bec.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-7867/list/hindiplatformlanguage1170x65823112022fac03d5e92564c1fab35ec7fc4562219.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258169/list/teluguplatformlanguage1170x65823112022653f2fbb4e034f758f686e45668b99b9.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258171/list/tamilplatformlanguage1170x65823112022b2e3147c0e17403f82252c73e96ceb65.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258059/list/bangla12f9480e9e6be463fa3e61e0aea058107.jpg" alt="">
+          
+          
+          
+         </div>
+         <h2 class="trending">Superhit Blockbusters</h2>
+         <div class="img">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5206541/portrait/1920x77055d860d003f34bb0af06525f743ad3a0.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5226617/portrait/1920x770c414429a62f845da9156201cc04d37eb.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5246218/portrait/1920x7707fe3d1ec02c444049b2b62926681b281.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z597633/portrait/1920x77023e0261fc21644ae86ccafc2d3c86126.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z571846/portrait/1920x77021b13c5ae35846fd83ca2df955339afc.jpg" alt="">
+          <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5125514/portrait/1920x7704f8c76ea135a4fe594b4f18a541d07ba.jpg" alt="">
+          
+         </div>
+         <h2 class="trending">Top Rented Movies</h2>
+         
+<!-- movies thmnails -->
+         <div class="img">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5238327/portrait/1920x770fb58dc41c14148a4a320be8dc51fe43e.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5236357/portrait/1920x77022d673d350ef4910b174bba1afdcfceb.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5214599/portrait/1920x770be7ef3576c2b46ac8bf91788e1076c5f.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5229382/portrait/1920x770d3b972e39c7d49639fdecdff6b033fae.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5210758/portrait/1920x770d00a740d47bf4ab5bbb9bbd5c75fd7c7.jpg" alt="">
+            <img class="imgss" src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5234572/portrait/1920x7703636d7977b034f10a5def35c95ba9242.jpg" alt="">
+         </div>
+
+         <div class="foot-link">
+          <span class="span-h2"><h2>Download Apps</h2></span>
+          <span style="margin-left: 20px; cursor: pointer;"><img src="../Images/play_store.png" alt=""></span>
+          <span style="margin-left: 10px; cursor: pointer;"><img src="../Images/app_store.png" alt=""></span>
+          <span class="connect" style="margin-left: 250px;"><h2>Connect with us</h2></span>
+          <span class="spann"><img class="foot-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEUAAAD///8SEhKlpaXFxcW8vLzr6+v5+fnw8PBwcHBZWVny8vKenp61tbWpqanMzMza2tqJiYnT09Ourq5SUlIuLi5paWnm5uZ6enopKSkcHBwLCwuampo0NDQ5OTmDg4NFRUWQkJB2dnZKSkpWVlYgICAYGBg+Pj5fX184w2LtAAAJgUlEQVR4nN3daXuyOhAG4FCrgIrirrWt2r5d/v8vPGBdAAmZZOYhXGe+F7grZJ0kKkBHGM37k/FhvXzfvez3Sqn908vufbk+jCf9eRTC76+A1x6kyWz9rprjfX1YpBvgU6CE80V83BtwhfiJF3PQkyCE896SbivE5xihlBZGSeyku0a8iISfSFS4mQxZvL8Y9kQ/SznhaOH2btbFciFXxkoJp7yX8zHWU6EnExFG45WwL4/dq8gnKSBMtwDeX2zTDghTicJFH0t2BcIUTn+gvjyOzx6FU7nSsyk+WYUOQwh+P4sxZHyPzsJIunpojti5XHUUhuNWfXm8OjYC3ITTt9aBSq3cPkcXYfjhwZdH7PIzOgj7nnx59FsQjtYegVlz1brEsRVOv7wClfq2bQBYCmeefXkcgMKNjyL0Md6sesg2wmfftFvYFDgWwlffrkKcAMKwvVYoJf6Rq0aqcLDzbarEbiArnH/7Fj3EE7FvTBN2p4wpBq1mJAknvi2amEgJe74l2ujJCLtUS1TjVULYhYaaPmZ8YbeBBKJJ2OVX9C9ML6pB2N1C5h6G4qZZ2NVqohzNlUajsJsV/WM0Vv1NwrnvJydHUwOuQTjoXltUF98NzXC9MOxab6IpdvrOlF74z/dTW8XQXtj9irAc2mpRJ/Q57OsWugJVI9y09Fgvn/H4eZoOLp/RKNqk0+f+ZPYxPK4sUqrOoRmB0wjbGDbcrydpwwh2OEjnk1n8SYa+2QhbaG5vn4ljSeGCesn6RnitEN6W+VnQdOegFwm1n2KdMHoB4rJY2k0E0oUvI6IQO7v0Zju1YlGsr2lCbEVBGHdgPE/NcP+jMIThsvhxSDu0+o8/Fl+PQuQU9tbeZymMzcIpSpfF2AVo+dU8lGJVYYjIMrxE4gS0FD7U+1UhsMHtkGXgIHx4USrCCIPLw/EXtC/bKy3BihCXymVfS7gKK4VNWZhCcHnU1cUgoSqn+ZWFsH79ipGZbi0s9/dLQlxNwcn0tW9jlWqMkhCWEOtU07sLlzoh7Cfcs1ZPOLSTiz9iUQjL2bbpDYoIj/VC2BD3G28BjEtfp/DdF4SwgpT3EzoJ/9UJYXXhF3MNk1N/9V4n3oWwlS8nHtBNeC+9b0Jci5SavCQqvLdOb0JY8v2x/rnRwlsX4yaE9QtJaT3ywlVViGuwcV9S15Gxa61/FcJGEH+4QFfhtTdzEY5kWYUwp/SUI4wG5YjIo/qVCEtC16uYw2b8N5zOfuXmhBYlIW6ZHX2AdLOVXemwLApx04XkNmko3+LYFIS4zCD9/Ho5EEnIk4IQl6VO7PtCKqvhXQgcQ6TV96BWf3QTJpgb5EEqSkPQYqrkJgQueCUNQaEm1eObEHSDPCiVxQB296sQmaFHaZWeYHdPL0LkqmVKdYjLEBxfhMB9A/YEIG4q4dysyYW4O5CEuDbx+UNU2M/wiSDEbY1yLsoV9n9IER6B91+chcj0GYoQuXY6PguPwDtQhMhk62MuxNW3iiZ8At5/P8iEwMLavzCr8xW0oPEvTDLhAXkD78JZJoRmInoXrjMhNOHZu/A9UNBURP/CzAccwVBdEI4UdvmWf+FcYTOC/Qv7CruI0r9worDbkvkXjhW0wu+A8KCwSw/8C9cKu7mjf+FSmXYU54V/4bvCroX1L9wp7Bon/8IvZbuO0S78C5/+90KsTynKBj/oR+DHYdLTBmWCtOHP8yuw83r5v6LU5umaYAr3iv8VMHejNgQ3l+lJ8cdjsUJuIsyL4o+pY4Xc/uuXQJsGK+Quptsp/hIErJA79/aj+Bn6WCH3FxgqfqYJVsh9uljxc1mgQnbi60xgnAYqZCe8jQXG2qBC9szYRGC8FCpkf0R9xZ8ghQrZw0ip4uewQ4XsJtdIYO4JKeT//0MVsAfbkEL2N/QeKH5yKVLI3u0ozoTs0gopZNfW+Tw+OwUaKWS/YIlEPg1SyK8s8pwo7kgNUDji9l7POVHBsbtC9lqez3PmHnfbJKCQ/QV9nIXcogYoZLe7E5EcYaCQXZPNRfK8gULuBHWeZp4LmUM1QCE3I214ETK3JccJ2b2CyUXILLFwQnZlcV0zw/wQcUL2+EMQiKxdwwm57e6Pm5BXI+Jm17jj3f2bELca3+8c8OgmDH5R9/A6j/8b3IWwBEWvwuJabth6fK/C4np82B5RPoWXvaIuQtRqbp/CpCREZez7FJb3NkGtK/EorOxPg9pjyKPwuhPArUrGLJ3xJ7ztJwze68uf8HYKFHi/Nn/Cx/3aMEuqvQlr9tzDrCX1JqzbNxGyDY8v4e/98uD9S30JC9tBFztwR/k7eRJq9qBF1PqehLp9hAE9DD/C0gZj4P28/QhLWzeVB1LEi1MvwoY92eXrRC/Cpn31xRs2PoSVTfAqQulxRR/CyqFP1QFN4S6GB6HhjBLpfmL7QuM5M8I1RvtC41lBwuc9tS78eLg8+Myu1oWUM7tEz11rW0g6d010K8yWhY9nktULR3Jrg9sVflHPPxQ8w7JdIfkMy0Bu76hWhYfay2smaaWOnGlTqNnfHnwecJtCu/OApaqMFoW6o/m0qQQyW9+2JzzpLq9PlhDJXmhN+Ku9fEM6iMSpJW0JV/rLNwgHArduSbhv2FS7KaVHYBC8JWHTvuiNSUv8tk07wsbMuua0LHaedSvC5lPPDIln3GGbNoSGU4ZNqXXMBf8tCE1HuBqTB3k1P154Ml3enB7JIsKF5sOWCAmgHCJaeDJfnpLiysjlBwt75quThIxKAyskHY5JErpX/VAhLYWeJnQ+jgkofCKeokwUBgO3ngZOuKOeOkgVBqHT/DBMOCQf30oWujVvUMIT/bEthC7lDUioG5PhCoON9f4LEOEb/cRBW6H9ok6EsH7gV0oYPNvNacgLv20XktkKg8gq511cuI7MF2QK7QocaaFNEXMJB2EQ0ifCZYWxyxnmLsIgmFILVUnhm9tSTjchuUclKDQMx2jDVRiMSHPhYsLYuoS5hrMwCFLCzIaQcJiaL6MLhjDrUxm3jxERLlkrjVnCrMgxGAWEn8yV1Exh9q429qrYwiXj/fwLtjAzHvS7FDGFW7ZPRJiVqz3dCABHuBrXpcdYh4gwi3l9O8ddGEttZCAlzCKpKXUchcvEpX1WH4LCIBgsqlWki/B3YtXDNYWoMItRst1zhB+JyMdXCGlhHpvecu8g3C/HAkXnQyCEeaRJfMxHkSmPkOGOcUIc4LUOlDCPKE3Mk19BMEtS6uiuSyCF3Yj/ANdIhRuZGtasAAAAAElFTkSuQmCC" alt=""></span>
+          <span class="spann"><img class="foot-img" src="data:image/png;base64,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" alt=""></span>
+          <span class="spann"><img class="foot-img" src="data:image/png;base64,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" alt=""></span>
+          <span class="spann"><img class="foot-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2xADONwArw19lFRGfBPP7stkXLYZnnkJr_g&usqp=CAU" alt=""></span>
+         </div>
+
+         <ul class="ul">
+             <li><a href="">About Us</a></li>
+             <li><a href="">Help Center</a></li>
+             <li><a href="">Privacy Policy</a></li>
+             <li><a href="">Terms of Use</a></li>
+            </ul>
+
+            <div class="last-div">
+            <ul><h3>Popular TV Shows</h3>
+              <li>Kumkum Bhagaya</li>
+              <li>Kundali Bhagya</li>
+              <li>Bhagya Lakshmi</li>
+              <li>Tujhse Hai Raabta</li>
+              <li>Kyun Rishton Mein Katti Batti</li>
+            </ul>
+
+              <ul><h3>Premium Movies</h3>
+                <li>Kya Meri Sonam Gupta Bewafa Hai?</li>
+                <li>Helmet</li>
+                <li>200 halla Ho</li>
+                <li>14 Phere</li>
+                <li>Dial 100</li>
+              </ul>
+
+                <ul><h3>Popular Web Series</h3>
+                  <li>Aaj Tak</li>
+                  <li>Zee News</li>
+                  <li>Zee TV HD</li>
+                  <li>&TV HD</li>
+                  <li>Zee Marathi HD</li>
+                </ul>
+
+                  <ul><h3>Popular Web Series</h3>
+                    <li>Sunflower</li>
+                    <li>jeet Ki Zid</li>
+                    <li>Bicchoo Ka Khel</li>
+                    <li>Sate of Siege: 26/11</li>
+                    <li>Naxalbari</li>
+                  </ul>
+
+                    <ul><h3>Bollywood Top Celebrities</h3>
+                      <li>Sunny Leone</li>
+                      <li>Disha Patani</li>
+                      <li>Deepika Padukone</li>
+                      <li>Salman Khan</li>
+                      <li>Nora Fatehi</li>
+                    </ul>
+            </div>
+            <div class="copy-right">
+              <p>Best viewed on Google Chrome 80+, Microsoft Edge 81+, Mozilla Firefox 75+, Safari 5.1.5+ <br>
+                Copyright © 2023 Zee Entertainment Enterprises Ltd. All rights reserved.Best viewed on Google Chrome 80+, Microsoft Edge 81+, Mozilla Firefox 75+, Safari 5.1.5+
+Copyright © 2023 Zee Entertainment Enterprises Ltd. All rights reserved.</p>
+            </div>
+            <p id="Vijaykumar">&#128154;Vijaykumar Athadakar</p>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
